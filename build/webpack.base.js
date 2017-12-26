@@ -6,7 +6,9 @@ function resolve(dir) {
 }
 
 module.exports = {
-  entry: "./app/js/main.js", //入口文件
+  entry: {
+    main: "./app/js/main.js" //入口文件
+  },
   output: {
     path: resolve('dist'),
     filename: "[name].js"

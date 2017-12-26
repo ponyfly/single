@@ -5,7 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const UglifyjsPlugin = require('uglifyjs-webpack-plugin')
 const webpack = require('webpack')
 const HtmlPlugin = require('html-webpack-plugin')
-const CopyPlugin = require('copy-webpack-plugin')
+// const CopyPlugin = require('copy-webpack-plugin')
 const OptimizeCssPlugin = require('optimize-css-assets-webpack-plugin')
 
 function resolve(dir) {
